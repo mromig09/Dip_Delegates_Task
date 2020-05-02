@@ -15,7 +15,7 @@ namespace Delegate_Exercise
 
         public static List<List<string>> RemoveHashes(List<List<string>> data) {
             foreach(var row in data) {
-                for (var index = 0; index < row.Count; index++) {
+                for (var index = 0; index < row.Count; index++) { 
                     if(row[index][0] == '#')
                         row[index] = row[index].Remove(0,1);
  
