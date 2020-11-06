@@ -29,7 +29,7 @@ namespace FileParser {
         public List<List<string>> StripQuotes(List<List<string>> data) {
             foreach(var line in data)
             {
-                for(var i = 0; i < line.Count; i=+ 1)
+                for(var i = 0; i < line.Count; i += 1)
                 {
                     line[i] = line[i].Trim('"');
                 }
